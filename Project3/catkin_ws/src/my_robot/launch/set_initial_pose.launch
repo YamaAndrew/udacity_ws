@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="rostopic" type="rostopic" name="set_initial_pose"
+        args='pub -1 /initialpose geometry_msgs/PoseWithCovarianceStamped "{header: {frame_id: \"map\"}, pose: {pose: {position: {x: 3.000432261314303, y: 1.00308221248198, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.7071, w: 0.7071}}, covariance: [0.25, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0, 0, 0, 0, 0.25, 0, 0, 0, 0, 0, 0, 0.0685389, 0, 0, 0, 0, 0, 0, 0.0685389, 0, 0, 0, 0, 0, 0, 0.0685389]}}"' />
+</launch>
+
